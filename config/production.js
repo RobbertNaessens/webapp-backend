@@ -4,7 +4,7 @@ module.exports = {
     disabled: false,
   },
   cors: {
-    origins: ["http://localhost:3000", "https://RobbertNaessens.github.io"],
+    origins: ["http://localhost:3000", "https://robbertnaessens.github.io"],
     maxAge: 3 * 60 * 60, // 3h in seconds
   },
   database: {
