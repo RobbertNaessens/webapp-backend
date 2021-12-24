@@ -3,11 +3,14 @@
   "version": "0.0.1",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "npx env-cmd nodemon",
     "web": "node src/index.js",
+    "start": "node src/index.js",
     "test": "npx env-cmd -f .env.test jest",
     "test:coverage": "yarn test --coverage",
     "test:ci": "jest"
+  },
+  "env": {
+    "production": true
   },
   "nodemonConfig": {
     "signal": "SIGTERM",
