@@ -4,6 +4,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "web": "node src/index.js",
+    "start": "node src/index.js",
     "test": "npx env-cmd -f .env.test jest",
     "test:coverage": "yarn test --coverage",
     "test:ci": "jest"
